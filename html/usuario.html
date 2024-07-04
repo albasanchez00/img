@@ -36,7 +36,74 @@
     </header>
 
 <!-- Formulario de Registro -->
-    
+<div class="container col-12">
+    <h1>Registro de Usuario</h1>
+    <p>A continuación, indique los datos solicitados para darse de alta en nuestro sistema.</p>
+    <p>[Los datos marcados con <span class="rojo">*</span> son obligatorios]</p>
+    <form action="index.php" id="registroForm" onsubmit="return validarFormulario()">
+        <p class="form-group">
+            <label for="nombre">Nombre:<span class="rojo">*</span></label>
+            <input type="text" id="nombre" name="nombre">
+        </p>
+
+        <div class="nombreError rojo msn"></div>
+
+        <p class="form-group">
+            <label for="apellido">Apellido:<span class="rojo">*</span></label>
+            <input type="text" id="apellido" name="apellido">
+        </p>
+
+        <div class="apellidoError rojo msn"></div>
+
+        <p class="form-group">
+            <label for="edad">Edad:<span class="rojo">*</span></label>
+            <input type="text" id="edad" name="edad" maxlength="3">
+        </p>
+
+        <div class="edadError rojo msn"></div>
+
+        <p class="form-group">
+            <label for="telefono">Teléfono:<span class="rojo">*</span></label>
+            <input type="text" id="telefono" name="telefono" maxlength="9">
+        </p>
+
+        <div class="telefonoError rojo msn"></div>
+
+        <p class="form-group">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion">
+        </p>
+
+        <div class="direccionError rojo msn"></div>
+
+        <p class="form-group">
+            <label for="email">Email:<span class="rojo">*</span></label>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <div class="emailError rojo msn"></div>
+
+        <p class="form-group">
+            <label for="password1">Contraseña:<span class="rojo">*</span></label>
+            <input type="password" id="password1" name="password1">
+        </p>
+
+        <div class="password1Error rojo msn"></div>
+
+        <p class="form-group">
+            <label for="password2">Repetir Contraseña:<span class="rojo">*</span></label>
+            <input type="password" id="password2" name="password2">
+        </p>
+
+        <div class="password2Error rojo msn"></div>
+
+        <p>
+            <input type="submit" value="Registrar" class="boton derecha">
+            <input type="reset" value="Borrar" class="boton derecha" id="reset">
+        </p>
+    </form>
+</div>
+
 
 
     <!-- Pie de Página -->
