@@ -280,3 +280,94 @@ body {
     padding-top: 40px;
 }
 
+
+
+/* Página Nacional */
+#blq_nacional{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url(../img/nacional.jpg);
+    height: 80%;
+}
+
+.texto_e{
+    width: 45%;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #f2f2f2;
+    padding: 0, 15px;
+}
+.texto_e p{
+    font-size: 16px;
+    padding: 30px 0;
+}
+
+
+.blq_img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 300px;
+    
+}
+
+.img2{
+    width: 450px;
+    height: 280px;
+}
+.img2:hover{
+    width: 550px;
+    height: 380px;
+}
+
+.titulo{
+    font-size: 24px;
+
+}
+
+/* Página Internacional */
+#blq_internacional{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url(../img/nacional.jpg);
+    height: 80%;
+}
+
+.texto_e{
+    width: 45%;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #f2f2f2;
+    padding: 0, 15px;
+}
+.texto_e p{
+    font-size: 16px;
+    padding: 30px 0;
+}
+
+
+.blq_img3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 300px;
+    
+}
+
+.img3{
+    width: 350px;
+    height: 280px;
+}
+.img3:hover{
+    width: 400px;
+    height: 300px;
+}
+
+.titulo{
+    font-size: 24px;
+
+}
