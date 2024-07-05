@@ -1,3 +1,4 @@
+/* Estilos Generales */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,8 +14,35 @@ body {
     height: 100vh;
 }
 
+.rojo {
+    color: darkred;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.separar {
+    padding-top: 10px;
+}
+
+.boton {
+    width: 200px;
+    height: auto;
+    color: #f2f2f2;
+    background-color: #333;
+}
+
+.boton:hover {
+    background-color: #BF452A;
+    border-radius: 10px;
+}
+
 /* Bloque Cabecera */
-#cabecera{
+#cabecera {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,13 +56,13 @@ body {
 
 
 /* Bloque Logo */
-.blq_logo{
+.blq_logo {
     height: 51px;
     width: 100px;
     padding-left: 20px;
 }
 
-.blq_logo img{
+.blq_logo img {
     height: 47px;
     width: 80px;
 }
@@ -42,29 +70,29 @@ body {
 
 
 /* Bloque Menú */
-.blq_menu{
+.blq_menu {
     width: 400px;
     height: auto;
 }
 
-.opc_menu{
+.opc_menu {
     display: flex;
     color: #f2f2f2;
 }
 
-.opc_menu a{
+.opc_menu a {
     text-decoration: none;
     color: #f2f2f2;
 }
 
-.opc_menu li{
+.opc_menu li {
     padding: 0 10px;
 }
 
 
 
 /* Bloque Seguimiento y Registro */
-.blq_registro{
+.blq_registro {
     display: flex;
     padding-right: 20px;
     width: 150px;
@@ -73,14 +101,15 @@ body {
     align-items: center;
 }
 
-.blq_registro a{
+.blq_registro a {
     text-decoration: none;
     color: #f2f2f2;
 }
 
 
+
 /* Seccion Busqueda */
-#busq_id{
+#busq_id {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,30 +119,30 @@ body {
     height: 600px;
 }
 
-.blq_img2{
+.blq_img2 {
     width: 200px;
     height: 200px;
-    
+
 }
 
-.img2{
-    width: 140px;
-    height: 150px;
+.imgCentro {
+    width: 450px;
+    height: 280px;
 }
 
-#seguimiento{
+#seguimiento {
     width: 350px;
     height: 40px;
     font-size: 12px;
 }
 
-#buscar{
+#buscar {
     width: 90px;
     height: 40px;
     font-size: 12px;
 }
 
-#buscar2{
+#buscar2 {
     width: 90px;
     height: 40px;
     font-size: 12px;
@@ -123,23 +152,22 @@ body {
 
 
 
-
 /* Bloque Calcular Envío */
-#calculo{
+#calculo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 300px;
-    
+
 }
 
-.secc_calculo div{
+.secc_calculo div {
     padding: 5px 0;
 }
 
-.secc_calculo{
+.secc_calculo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,20 +177,15 @@ body {
     border: 1px solid black;
 }
 
-.flex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 16px;
-}
-
-.flex select{
+.flex select {
     width: 200px;
     height: 35px;
 }
 
+
+
 /* Footer */
-#footer{
+#footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -173,26 +196,28 @@ body {
     padding: 0 10px;
 }
 
-#footer div{
+#footer div {
     display: flex;
     flex-direction: column;
 }
 
-#footer a{
+#footer a {
     text-decoration: none;
     color: #f2f2f2;
     padding: 5px 0;
 }
-#footer picture{
+
+#footer picture {
     height: 51px;
     width: 100px;
     padding-left: 20px;
 }
 
 
+
 /* Pagina de Contacto */
 /* Bloque Imagen */
-.bloque_contacto{
+.bloque_contacto {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,21 +225,22 @@ body {
     height: 80%;
 }
 
-#blq_img3{
+#blq_img3 {
     width: 25%;
     height: 300px
 }
 
-#blq_img3 img{
+#blq_img3 img {
     width: 100%;
     height: 100%;
 }
 
-.formulario2{
+/* Bloque Formulario */
+.formulario2 {
     padding: 20px 5px;
 }
 
-.seccion_contacto{
+.seccion_contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -225,31 +251,18 @@ body {
     border: 1px solid black;
 }
 
-.titulo_2{
+.titulo_2 {
     width: 100%;
     font-size: 16px;
     padding: 20px 5px;
 }
 
-.separar{
-    padding-top: 10px;
-}
 
-.boton{
-    width: 200px;
-    height: auto;
-    color: #f2f2f2;
-    background-color: #333;
-}
-.boton:hover{
-    background-color: #BF452A;
-    border-radius: 10px;
-}
 
 
 
 /* Página de Seguimiento */
-#blq_seguimiento{
+#blq_seguimiento {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,7 +271,7 @@ body {
     padding: 0 15px;
 }
 
-.secc_seguimiento{
+.secc_seguimiento {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -268,22 +281,22 @@ body {
     border: 1px solid black;
 }
 
-.secc_seguimiento h1{
+.secc_seguimiento h1 {
     font-size: 24px;
 }
 
-.secc_seguimiento p{
+.secc_seguimiento p {
     font-size: 16px;
 }
 
-.separar2{
+.separar2 {
     padding-top: 40px;
 }
 
 
 
 /* Página Nacional */
-#blq_nacional{
+#blq_nacional {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,43 +305,46 @@ body {
     height: 80%;
 }
 
-.texto_e{
+.texto_e {
     width: 45%;
     background-color: rgb(0, 0, 0, 0.5);
     color: #f2f2f2;
     padding: 0, 15px;
 }
-.texto_e p{
+
+.texto_e p {
     font-size: 16px;
     padding: 30px 0;
 }
 
-
-.blq_img2{
+.blq_img2 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
     height: 300px;
-    
+
 }
 
-.img2{
+.img2 {
     width: 450px;
     height: 280px;
 }
-.img2:hover{
+
+.img2:hover {
     width: 550px;
     height: 380px;
 }
 
-.titulo{
+.titulo {
     font-size: 24px;
 
 }
 
+
+
 /* Página Internacional */
-#blq_internacional{
+#blq_internacional {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -337,37 +353,193 @@ body {
     height: 80%;
 }
 
-.texto_e{
+.texto_e {
     width: 45%;
     background-color: rgb(0, 0, 0, 0.5);
     color: #f2f2f2;
     padding: 0, 15px;
 }
-.texto_e p{
+
+.texto_e p {
     font-size: 16px;
     padding: 30px 0;
 }
 
 
-.blq_img3{
+.blq_img3 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
     height: 300px;
-    
+
 }
 
-.img3{
+.img3 {
     width: 350px;
     height: 280px;
 }
-.img3:hover{
+
+.img3:hover {
     width: 400px;
     height: 300px;
 }
 
-.titulo{
+.titulo {
     font-size: 24px;
 
+}
+
+
+
+/* Página de Registros Usuario */
+#blq_registroUsu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+.secc_registroUsu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+    border: 1px solid black;
+}
+
+.form-group {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.boton_Reg {
+    padding-top: 15px;
+}
+
+.tituloR {
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.texto {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+
+
+/* Página de Inicio */
+#blq_Inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+
+/* 1º Apartado */
+.secc_Info1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+    margin-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.secc_Info1 picture{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 180px;
+}
+
+.secc_Info1 picture img{
+    width: 180px;
+    height: 160px;
+    border-right: 1px solid black;
+
+}
+
+.info_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 600px;
+}
+
+.info_1 p{
+    padding: 5px 0;
+    height: auto;
+    width: 70%;
+    text-align: left;
+}
+.info_1 h2{
+    height: auto;
+    width: 70%;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+
+/* 2º Apartado */
+.secc_Info2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+    padding: 5px;
+}
+
+.secc_Info2 picture{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 180px;
+    border-left: 1px solid black;
+}
+
+.secc_Info2 picture img{
+    width: 180px;
+    height: 160px;
+    
+}
+
+.info_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 600px;
+}
+
+.info_2 p{
+    padding: 5px 0;
+    height: auto;
+    width: 70%;
+    text-align: left;
+}
+.info_2 h2{
+    height: auto;
+    width: 70%;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: left;
 }

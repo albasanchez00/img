@@ -22,11 +22,12 @@
             <ul class="opc_menu">
                 <li class="inicio"><a href="inicio.html">Inicio</a></li>
                 <li class="nacional"><a href="nacional.html">Nacional</a></li>
-                <li class="internacional"><a href="inicio.html">Internacional</a></li>
+                <li class="internacional"><a href="internacional.html">Internacional</a></li>
                 <li class="noticias"><a href="noticias.html">Noticias</a></li>
                 <li class="contacto"><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
+
         
         <!-- Seguimiento y Usuario -->
         <section class="blq_registro">
@@ -35,75 +36,78 @@
         </section>
     </header>
 
-<!-- Formulario de Registro -->
-<div class="container col-12">
-    <h1>Registro de Usuario</h1>
-    <p>A continuación, indique los datos solicitados para darse de alta en nuestro sistema.</p>
-    <p>[Los datos marcados con <span class="rojo">*</span> son obligatorios]</p>
-    <form action="index.php" id="registroForm" onsubmit="return validarFormulario()">
-        <p class="form-group">
-            <label for="nombre">Nombre:<span class="rojo">*</span></label>
-            <input type="text" id="nombre" name="nombre">
-        </p>
 
-        <div class="nombreError rojo msn"></div>
+    <!-- Formulario de Registro -->
+    <section id="blq_registroUsu">
+        <div class="secc_registroUsu">
+            <h1 class="tituloR">Registro de Usuario</h1>
+            <p class="texto">A continuación, indique los datos solicitados para darse de alta en nuestro sistema.</p>
+            <p class="texto">[Los datos marcados con <span class="rojo">*</span> son obligatorios]</p>
+            <hr>
+            <form action="index.php" id="registroForm" onsubmit="return validarFormulario()">
+                <p class="form-group">
+                    <label for="nombre">Nombre:<span class="rojo">*</span></label>
+                    <input type="text" id="nombre" name="nombre">
+                </p>
 
-        <p class="form-group">
-            <label for="apellido">Apellido:<span class="rojo">*</span></label>
-            <input type="text" id="apellido" name="apellido">
-        </p>
+                <div class="nombreError rojo msn"></div>
 
-        <div class="apellidoError rojo msn"></div>
+                <p class="form-group">
+                    <label for="apellido">Apellido:<span class="rojo">*</span></label>
+                    <input type="text" id="apellido" name="apellido">
+                </p>
 
-        <p class="form-group">
-            <label for="edad">Edad:<span class="rojo">*</span></label>
-            <input type="text" id="edad" name="edad" maxlength="3">
-        </p>
+                <div class="apellidoError rojo msn"></div>
 
-        <div class="edadError rojo msn"></div>
+                <p class="form-group">
+                    <label for="edad">Edad:<span class="rojo">*</span></label>
+                    <input type="text" id="edad" name="edad" maxlength="3">
+                </p>
 
-        <p class="form-group">
-            <label for="telefono">Teléfono:<span class="rojo">*</span></label>
-            <input type="text" id="telefono" name="telefono" maxlength="9">
-        </p>
+                <div class="edadError rojo msn"></div>
 
-        <div class="telefonoError rojo msn"></div>
+                <p class="form-group">
+                    <label for="telefono">Teléfono:<span class="rojo">*</span></label>
+                    <input type="text" id="telefono" name="telefono" maxlength="9">
+                </p>
 
-        <p class="form-group">
-            <label for="direccion">Dirección:</label>
-            <input type="text" id="direccion" name="direccion">
-        </p>
+                <div class="telefonoError rojo msn"></div>
 
-        <div class="direccionError rojo msn"></div>
+                <p class="form-group">
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion">
+                </p>
 
-        <p class="form-group">
-            <label for="email">Email:<span class="rojo">*</span></label>
-            <input type="email" id="email" name="email">
-        </p>
+                <div class="direccionError rojo msn"></div>
 
-        <div class="emailError rojo msn"></div>
+                <p class="form-group">
+                    <label for="email">Email:<span class="rojo">*</span></label>
+                    <input type="email" id="email" name="email">
+                </p>
 
-        <p class="form-group">
-            <label for="password1">Contraseña:<span class="rojo">*</span></label>
-            <input type="password" id="password1" name="password1">
-        </p>
+                <div class="emailError rojo msn"></div>
 
-        <div class="password1Error rojo msn"></div>
+                <p class="form-group">
+                    <label for="password1">Contraseña:<span class="rojo">*</span></label>
+                    <input type="password" id="password1" name="password1">
+                </p>
 
-        <p class="form-group">
-            <label for="password2">Repetir Contraseña:<span class="rojo">*</span></label>
-            <input type="password" id="password2" name="password2">
-        </p>
+                <div class="password1Error rojo msn"></div>
 
-        <div class="password2Error rojo msn"></div>
+                <p class="form-group">
+                    <label for="password2">Repetir Contraseña:<span class="rojo">*</span></label>
+                    <input type="password" id="password2" name="password2">
+                </p>
 
-        <p>
-            <input type="submit" value="Registrar" class="boton derecha">
-            <input type="reset" value="Borrar" class="boton derecha" id="reset">
-        </p>
-    </form>
-</div>
+                <div class="password2Error rojo msn"></div>
 
+                <p class="boton_Reg">
+                    <input type="submit" value="Registrar" class="boton derecha">
+                    <input type="reset" value="Borrar" class="boton derecha" id="reset">
+                </p>
+            </form>
+        </div>
+    </section>
 
 
     <!-- Pie de Página -->
@@ -118,5 +122,10 @@
             <a href="contacto.html" class="">Contacto</a>
         </div>
     </footer>
+
+
+    <!-- JS -->
+    <script src="../js/formUsu.js"></script>
 </body>
+
 </html>
