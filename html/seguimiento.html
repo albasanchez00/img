@@ -27,7 +27,7 @@
                 <li class="contacto"><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        
+
         <!-- Seguimiento y Usuario -->
         <section class="blq_registro">
             <a href="seguimiento.html">Seguimiento</a>
@@ -38,13 +38,13 @@
     <!-- Bloque Identificador -->
     <section id="blq_seguimiento">
         <div class="secc_seguimiento">
-            <h1>Seguimiento</h1>
-            <p class="separar2">Código de Envío*:</p>
-            <form name="seguimiento-frm" id="seguimiento-frm" class="formulario3 separar2">
-                <input type="text" name="busqueda" id="seguimiento"
-                    placeholder="Introduzca el número de seguimiento Ej: USPXXXXXXX">
-                <input type="submit" id="buscar2">
+            <h1 class="titulo_Seg">Seguimiento de Envío</h1>
+            <form id="seguimiento-form">
+                <input class="form-Seg" type="text" id="idSeg" placeholder="Introduzca el número de seguimiento Ej: USPXXXXXXX">
+                <br>
+                <button class="boton boton_Reg" type="button" onclick="validarSeguimiento()">Validar</button>
             </form>
+            <h2 id="resultado"></h2>
         </div>
     </section>
 
@@ -61,6 +61,9 @@
             <a href="contacto.html" class="">Contacto</a>
         </div>
     </footer>
+
+
+    <script src="../js/formSeguimiento.js"></script>
 </body>
 
 </html>

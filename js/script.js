@@ -1,3 +1,4 @@
+// 1.Calcular Envío
 // Creamos la tabla de las comunidades.
 const comunidades = [
     "Andalucía", "Cataluña", "Madrid", "Valencia", "Galicia",
@@ -64,8 +65,8 @@ function calcularEnvio() {
     }
     // Calcular envío
     let envio = carburante + costo;
-    
-    
+
+
     // Mostrar resultado
     document.getElementById('resultado').textContent = 'El costo del envío es: €' + envio;
 }
@@ -73,15 +74,8 @@ function calcularEnvio() {
 
 
 
+// 2. Mostrar y Ocultar Img al hacer click botón.
 
 
-// // Creamos el seguimiento
-// const usp = [
-//     "USP0659475", "USP0654715", "USP0650385", "USP0652649", "USP0650011",
-//     "USP0653705", "USP0651400"];
 
 
-function img(){
-    imagen = '<img src="/img/loader.gif" alt="cargando..." />'
-    document.write(imagen)
-       }

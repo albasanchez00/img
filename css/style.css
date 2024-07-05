@@ -369,15 +369,21 @@ body {
 .secc_seguimiento {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 700px;
-    height: 400px;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
     border: 1px solid black;
 }
-
-.secc_seguimiento h1 {
-    font-size: 24px;
+#seguimiento-form label{
+    padding: 10px 0;
+}
+#seguimiento-form label input{
+    padding: 10px 0;
+}
+.form-group {
+    padding: 5px 0;
+    font-size: 14px;
 }
 
 .secc_seguimiento p {
@@ -388,6 +394,10 @@ body {
     padding-top: 40px;
 }
 
+.titulo_Seg {
+    font-size: 26px;
+    padding: 10px 0;
+}
 
 
 /* 7. Página de Registros Usuario */
