@@ -173,7 +173,7 @@ body {
     padding: 5px 0;
 }
 
-.secc_calculo {
+.form-calculo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,7 +184,7 @@ body {
 }
 
 
-.flex select {
+.select {
     width: 200px;
     height: 35px;
 }
