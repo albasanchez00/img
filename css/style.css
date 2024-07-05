@@ -29,6 +29,10 @@ body {
     padding-top: 10px;
 }
 
+.separar3 {
+    padding: 10px 0;
+}
+
 .boton {
     width: 200px;
     height: auto;
@@ -41,6 +45,8 @@ body {
     border-radius: 10px;
 }
 
+
+/* 1. Pagina Incio */
 /* Bloque Cabecera */
 #cabecera {
     display: flex;
@@ -214,87 +220,7 @@ body {
     padding-left: 20px;
 }
 
-
-
-/* Pagina de Contacto */
-/* Bloque Imagen */
-.bloque_contacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80%;
-}
-
-#blq_img3 {
-    width: 25%;
-    height: 300px
-}
-
-#blq_img3 img {
-    width: 100%;
-    height: 100%;
-}
-
-/* Bloque Formulario */
-.formulario2 {
-    padding: 20px 5px;
-}
-
-.seccion_contacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 300px;
-    background-color: #F9F9F9;
-    border: 1px solid black;
-}
-
-.titulo_2 {
-    width: 100%;
-    font-size: 16px;
-    padding: 20px 5px;
-}
-
-
-
-/* Página de Seguimiento */
-#blq_seguimiento {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 80%;
-    padding: 0 15px;
-}
-
-.secc_seguimiento {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 700px;
-    height: 400px;
-    border: 1px solid black;
-}
-
-.secc_seguimiento h1 {
-    font-size: 24px;
-}
-
-.secc_seguimiento p {
-    font-size: 16px;
-}
-
-.separar2 {
-    padding-top: 40px;
-}
-
-
-
-/* Página Nacional */
+/* 2. Página Nacional */
 #blq_nacional {
     display: flex;
     align-items: center;
@@ -330,11 +256,6 @@ body {
     height: 280px;
 }
 
-.img2:hover {
-    width: 550px;
-    height: 380px;
-}
-
 .titulo {
     font-size: 24px;
 
@@ -342,7 +263,7 @@ body {
 
 
 
-/* Página Internacional */
+/* 3. Página Internacional */
 #blq_internacional {
     display: flex;
     align-items: center;
@@ -391,7 +312,85 @@ body {
 
 
 
-/* Página de Registros Usuario */
+/* 5. Pagina de Contacto */
+/* Bloque Imagen */
+.bloque_contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+#blq_img3 {
+    width: 25%;
+    height: 300px
+}
+
+#blq_img3 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Bloque Formulario */
+.formulario2 {
+    padding: 20px 5px;
+}
+
+.seccion_contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 300px;
+    background-color: #F9F9F9;
+    border: 1px solid black;
+}
+
+.titulo_2 {
+    width: 100%;
+    font-size: 16px;
+    padding: 20px 5px;
+}
+
+
+
+/* 6. Página de Seguimiento */
+#blq_seguimiento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    padding: 0 15px;
+}
+
+.secc_seguimiento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.secc_seguimiento h1 {
+    font-size: 24px;
+}
+
+.secc_seguimiento p {
+    font-size: 16px;
+}
+
+.separar2 {
+    padding-top: 40px;
+}
+
+
+
+/* 7. Página de Registros Usuario */
 #blq_registroUsu {
     display: flex;
     flex-direction: column;
@@ -429,116 +428,23 @@ body {
     font-size: 16px;
     padding: 5px 0;
 }
-
-
-
-/* Página de Inicio */
-#blq_Inicio {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 80%;
+}
+
+.rojo {
+    color: red;
+}
+
+/* Botónes -> Enviar y Borrar */
+.errorInput{
+    border: 2px solid darkred;
+}
+.validoInput{ 
+    border: 2px solid darkgreen;
 }
 
 
-/* 1º Apartado */
-.secc_Info1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    height: 50%;
-    margin-bottom: 5px;
-    border-bottom: 2px solid black;
-}
-
-.secc_Info1 picture{
-    align-items: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 180px;
-}
-
-.secc_Info1 picture img{
-    width: 180px;
-    height: 160px;
-    border-right: 1px solid black;
-
-}
-
-.info_1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    width: 600px;
-}
-
-.info_1 p{
-    padding: 5px 0;
-    height: auto;
-    width: 70%;
-    text-align: left;
-}
-.info_1 h2{
-    height: auto;
-    width: 70%;
-    font-size: 20px;
-    padding: 10px 0;
-    text-align: left;
-}
-
-
-/* 2º Apartado */
-.secc_Info2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    height: 50%;
-    padding: 5px;
-}
-
-.secc_Info2 picture{
-    align-items: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 180px;
-    border-left: 1px solid black;
-}
-
-.secc_Info2 picture img{
-    width: 180px;
-    height: 160px;
-    
-}
-
-.info_2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    width: 600px;
-}
-
-.info_2 p{
-    padding: 5px 0;
-    height: auto;
-    width: 70%;
-    text-align: left;
-}
-.info_2 h2{
-    height: auto;
-    width: 70%;
-    font-size: 20px;
-    padding: 10px 0;
-    text-align: left;
-}

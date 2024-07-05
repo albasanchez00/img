@@ -62,20 +62,26 @@ function calcularEnvio() {
         alert('Peso del paquete no válido. Debe ser menor a 20Kg.');
         return;
     }
+    // Calcular envío
+    let envio = carburante + costo;
+    
+    
+    // Mostrar resultado
+    document.getElementById('resultado').textContent = 'El costo del envío es: €' + envio;
 }
 
 
-// Calcular envío
-let envio = carburante + costo;
-
-
-// Mostrar resultado
-document.getElementById('resultado').textContent = 'El costo del envío es: €' + envio;
 
 
 
 
-// Creamos el seguimiento
-const usp = [
-    "USP0659475", "USP0654715", "USP0650385", "USP0652649", "USP0650011",
-    "USP0653705", "USP0651400"];
+// // Creamos el seguimiento
+// const usp = [
+//     "USP0659475", "USP0654715", "USP0650385", "USP0652649", "USP0650011",
+//     "USP0653705", "USP0651400"];
+
+
+function img(){
+    imagen = '<img src="/img/loader.gif" alt="cargando..." />'
+    document.write(imagen)
+       }

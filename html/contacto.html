@@ -42,7 +42,7 @@
         <section class="seccion_contacto">
             <h2 class="titulo_2">Contacta con Nosotros</h2>
             <p>[Los datos marcados con <span class="rojo">*</span> son obligatorios]</p>
-            <form name="contacto-frm" id="registroFormContact" class="formulario2">
+            <form name="frm_contacto" id="frm_contacto" class="formulario2">
             <P>
                 <!-- el atributo for debe ir asociado a un tipo -->
                 <input class="flex" type="text" id="nombre" placeholder="Nombre">
@@ -55,13 +55,15 @@
                 <!-- el atributo for debe ir asociado a un tipo -->
                 <input class="flex" type="text" id="email" placeholder="Email">
             </P>
+            <div class="emailError rojo msn"></div>
+
             <P class="separar">
                 <!-- el atributo for debe ir asociado a un tipo -->
                 <input class="flex" type="text" id="mensaje" placeholder="Mensaje">
             </P>
             <p class="separar">
                 <!-- Envia el formulario -->
-                <input class="boton" type="submit" value="Enviar datos">
+                <input class="boton boton_Reg" type="submit" value="Enviar datos" id="enviar">
             </p>
         </form>
         </section>
@@ -83,7 +85,6 @@
     </footer>
 
 
-    <!-- JS -->
-    <script src="../js/formCont.js"></script>
+    <script src="../js/formContact.js"></script>
 </body>
 </html>
